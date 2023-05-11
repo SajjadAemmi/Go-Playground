@@ -13,6 +13,11 @@ brew install go
 ### Windows
 Download the installer from [here](https://golang.org/dl/).
 
+Then go to the desired directory and run:
+```
+go mod init example.com/hello
+```
+
 ## Usage
 
 To run the program, type and run:
