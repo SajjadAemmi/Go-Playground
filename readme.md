@@ -22,10 +22,10 @@ go mod init example.com/hello
 
 To run the program, type and run:
 ```
-go run .\helloworld.go
+go run ./helloworld.go
 ```
 
 If you want to save the program as an executable, type and run:
 ```
-go build .\helloworld.go
+go build ./helloworld.go
 ```
