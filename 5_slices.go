@@ -5,9 +5,7 @@ import ("fmt")
 func main() {
 	/*
 	Slices are similar to arrays, but are more powerful and flexible.
-
 	Like arrays, slices are also used to store multiple values of the same type in a single variable.
-
 	However, unlike arrays, the length of a slice can grow and shrink as you see fit.
 	*/
 
@@ -36,16 +34,16 @@ func main() {
 
 	// Create a Slice With The make() Function
 
-	myslice1 := make([]int, 5, 10)
-	fmt.Printf("myslice1 = %v\n", myslice1)
-	fmt.Printf("length = %d\n", len(myslice1))
-	fmt.Printf("capacity = %d\n", cap(myslice1))
+	myslice3 := make([]int, 5, 10)
+	fmt.Printf("myslice3 = %v\n", myslice3)
+	fmt.Printf("length = %d\n", len(myslice3))
+	fmt.Printf("capacity = %d\n", cap(myslice3))
 
 	// with omitted capacity
-	myslice2 := make([]int, 5)
-	fmt.Printf("myslice2 = %v\n", myslice2)
-	fmt.Printf("length = %d\n", len(myslice2))
-	fmt.Printf("capacity = %d\n", cap(myslice2))
+	myslice4 := make([]int, 5)
+	fmt.Printf("myslice4 = %v\n", myslice4)
+	fmt.Printf("length = %d\n", len(myslice4))
+	fmt.Printf("capacity = %d\n", cap(myslice4))
 
 	prices := []int{10,20,30}
 	prices[2] = 50
@@ -53,21 +51,11 @@ func main() {
 	fmt.Println(prices[2])
 
 	// Append One Slice To Another Slice
-	myslice1 := []int{1,2,3}
-	myslice2 := []int{4,5,6}
-	myslice3 := append(myslice1, myslice2...)
+	myslice5 := []int{1,2,3}
+	myslice6 := []int{4,5,6}
+	myslice7 := append(myslice5, myslice6...)
   
-	fmt.Printf("myslice3=%v\n", myslice3)
-	fmt.Printf("length=%d\n", len(myslice3))
-	fmt.Printf("capacity=%d\n", cap(myslice3))
-
-	a := 14
-	b := 14
-	if a < b {
-	  fmt.Println("a is less than b.")
-	} else if a > b {
-	  fmt.Println("a is more than b.")
-	} else {
-	  fmt.Println("a and b are equal.")
-	}
+	fmt.Printf("myslice7=%v\n", myslice7)
+	fmt.Printf("length=%d\n", len(myslice7))
+	fmt.Printf("capacity=%d\n", cap(myslice7))
 }
