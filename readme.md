@@ -1,4 +1,6 @@
-# Go
+# Go HelloWorld
+
+[![Go](https://github.com/SajjadAemmi/Go-HelloWorld/actions/workflows/go.yml/badge.svg)](https://github.com/SajjadAemmi/Go-HelloWorld/actions/workflows/go.yml)
 
 Go is an open source programming language supported by Google that makes it easy to build simple, reliable, and efficient software.
 
