@@ -1,5 +1,5 @@
 package main
-import ("fmt")
+import "fmt"
 
 // declaring variables outside of a function, with the var keyword:
 var a int

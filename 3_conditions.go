@@ -1,5 +1,5 @@
 package main
-import ("fmt")
+import "fmt"
 
 func main() {
 	a := 14

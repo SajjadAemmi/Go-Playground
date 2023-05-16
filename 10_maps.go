@@ -1,5 +1,5 @@
 package main
-import ("fmt")
+import "fmt"
 
 func main() {
 	var a = map[string]string{"brand": "Ford", "model": "Mustang", "year": "1964"}

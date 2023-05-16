@@ -1,5 +1,7 @@
 # Go
 
+Go is an open source programming language supported by Google that makes it easy to build simple, reliable, and efficient software.
+
 ## Installation
 
 ### Linux (Ubuntu)

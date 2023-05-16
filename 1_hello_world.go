@@ -2,7 +2,7 @@
 // Note: In Go, any executable code belongs to the main package.
 
 package main
-import ("fmt")
+import "fmt"
 
 func main() {
 	/* The code below will print Hello World

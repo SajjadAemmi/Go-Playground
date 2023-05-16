@@ -1,5 +1,5 @@
 package main
-import ("fmt")
+import "fmt"
 
 func myFunction(x int, y int) int {
 	return x + y
