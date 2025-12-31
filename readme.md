@@ -1,4 +1,4 @@
-# Go HelloWorld
+# Go Playground
 
 [![Go](https://github.com/SajjadAemmi/Go-HelloWorld/actions/workflows/go.yml/badge.svg)](https://github.com/SajjadAemmi/Go-HelloWorld/actions/workflows/go.yml)
 
@@ -33,3 +33,4 @@ If you want to save the program as an executable, type and run:
 ```
 go build ./1_hello_world.go
 ```
+
